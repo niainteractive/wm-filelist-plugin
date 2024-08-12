@@ -3,10 +3,11 @@
 
 FileList is a WinterCMS Plugin that allows developers to display a list of all files in a given directory/folder. Each listed item is automatically turned into a link to that file.
 
-*CREDITS*
+**CREDITS**
+
 This plugin is published by [Nia Interactive] (https://niainteractive.com)
 
-*USE*
+**USEAGE**
 
     Install the ListFiles Plugin in an OctoberCMS website.
         There is nothing in Settings or the Backend navigation
