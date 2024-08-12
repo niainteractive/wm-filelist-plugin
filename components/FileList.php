@@ -1,5 +1,3 @@
-/* plugins/niainteractive/wn-filelist-plugin/components/FileList.php */
-
 <?php namespace NiaInteractive\FileList\Components;
 
 use Cms\Classes\ComponentBase;
