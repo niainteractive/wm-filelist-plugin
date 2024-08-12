@@ -1,4 +1,4 @@
-// plugins/niainteractive/wn-filelist-plugin/Plugin.php
+/* plugins/niainteractive/wn-filelist-plugin/Plugin.php */
 
 namespace NiaInteractive\FileList;
 
