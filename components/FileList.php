@@ -1,6 +1,6 @@
-// plugins/niainteractive/wn-filelist-plugin/components/FileList.php
+/* plugins/niainteractive/wn-filelist-plugin/components/FileList.php */
 
-namespace NiaInteractive\FileList\Components;
+<?php namespace NiaInteractive\FileList\Components;
 
 use Cms\Classes\ComponentBase;
 use Illuminate\Support\Facades\Storage;
