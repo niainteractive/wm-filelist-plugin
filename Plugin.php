@@ -1,5 +1,3 @@
-/* plugins/niainteractive/wn-filelist-plugin/Plugin.php */
-
 <?php namespace NiaInteractive\FileList;
 
 use System\Classes\PluginBase;
