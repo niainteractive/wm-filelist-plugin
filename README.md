@@ -1,5 +1,5 @@
 # wm-filelist-plugin
-*Plugin for OctoberCMS*
+**Plugin for OctoberCMS**
 
 FileList is a WinterCMS Plugin that allows developers to display a list of all files in a given directory/folder. Each listed item is automatically turned into a link to that file.
 
