@@ -1,0 +1,10 @@
+1.0.1:
+    - Initialize plugin.
+1.0.2:
+    - Changed path to media directory for compliance with October 3.
+1.0.3:
+    - Added version control.
+1.0.4:
+    - Changed required packages.
+1.0.5:
+    - Ported to WinterCMS — switched onRender to onRun, updated composer type to winter-plugin.

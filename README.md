@@ -1,31 +1,53 @@
-# wm-filelist-plugin
-**Plugin for OctoberCMS**
+# wn-listfiles-plugin
 
-FileList is a WinterCMS Plugin that allows developers to display a list of all files in a given directory/folder. Each listed item is automatically turned into a link to that file.
+**A WinterCMS plugin that displays a list of files from the Media Library.**
 
-**CREDITS**
+ListFiles allows you to drop a component on any CMS Page or Partial and automatically display a list of all files in a given Media Library folder. Each item is a clickable link showing the filename and file size.
 
-This plugin is published by [Nia Interactive] (https://niainteractive.com)
+---
 
-**USEAGE**
+## Credits
 
-    Install the ListFiles Plugin in an OctoberCMS website.
-        There is nothing in Settings or the Backend navigation
-        ListFiles exists solely as a component
+This plugin is published by **[Nia Interactive](https://niainteractive.com)**.
 
-    Create or open a CMS Page or Partial
-    
-    Add the ListFiles component to the page or partial
-        Drag the component to the place on the page or partial where the list will be displayed
+Originally developed by [Hardik Satasiya](https://www.fiverr.com/hardik_satasiya) for OctoberCMS. Ported to WinterCMS by Nia Interactive.
 
-    Use the selector to choose which folder to display
-        The default directory is 'media'
-        Add to the path as necessary
-        e.g., /board-meetings/2020/november
- 
-    Add as many components as necessary to the page
-        one component per folder to display
- 
-    Optional: Fork the component to customize look and flow of the list
-        FileList provides a simple list, but can be customized
+---
 
+## Installation
+
+```bash
+composer require niainteractive/wn-listfiles-plugin
+```
+
+Then run:
+
+```bash
+php artisan winter:up
+```
+
+---
+
+## Usage
+
+1. Install the plugin — there is nothing in Settings or Backend navigation. ListFiles exists solely as a component.
+2. Create or open a CMS Page or Partial.
+3. Add the **ListFiles** component.
+4. Set the **Folder Path** property to the Media Library directory you want to display (e.g., `/board-meetings/2024/november`).
+5. Add as many ListFiles components as needed — one per folder.
+
+---
+
+## Customization
+
+The default template renders a simple `<ul>` list. To customize:
+
+1. Copy `plugins/niainteractive/listfiles/components/listfiles/default.htm`
+2. Paste into your theme at `themes/your-theme/partials/listfiles/default.htm`
+3. Edit as needed
+
+---
+
+## License
+
+MIT — see [LICENSE](LICENSE).
